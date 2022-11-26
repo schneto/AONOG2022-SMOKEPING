@@ -17,6 +17,31 @@
 
 git clone https://github.com/schumacherneto/AONOG2022-SMOKEPING.git
 
+
+### Prepare the container
+ ```
+ less docker-compose.yml
+  ```
+ ```
+---
+version: "2.1"
+services:
+  smokeping:
+    image: lscr.io/linuxserver/smokeping:latest
+    container_name: aonog2022-smokeping
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Africa/Luanda
+    volumes:
+      - ./config/Targets:/config/Targets
+      - ./config/data:/config/data
+      
+    ports:
+      - 80:80
+    restart: unless-stopped
+  ```
+
 ### Docker-compose pull smokeping image and build a container *aonog2022-smokeping*
 
  ```

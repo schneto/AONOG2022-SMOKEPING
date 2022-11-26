@@ -49,10 +49,36 @@ menu = Angola
 title = The Mixaland
 
 +++ ParatusAO
-
-menu = Paratus AO
-title = Paratus AO
+menu = www.paratus.ao
+title = www.paratus.ao
 host = www.paratus.ao
+
++++ TVCABOAO
+menu = www.tvcabo.ao
+title = www.tvcabo.ao
+host = www.tvcabo.ao
+
++++ ZAPAO
+menu = www.zap.co.ao
+title = www.zap.co.ao
+host = www.zap.co.ao
+
++++ UNITELAO
+menu = www.unitel.ao
+title = www.unitel.ao
+host = www.unitel.ao
+
++++ AFRICELLAO
+menu = www.africell.ao
+title = www.africell.ao
+host = www.africell.ao
+
++++ IPWORLDAO
+menu = www.ipworld.co.ao
+title = www.ipworld.co.ao
+host = www.ipworld.co.ao
+
+
 
 + DNS
 menu = DNS

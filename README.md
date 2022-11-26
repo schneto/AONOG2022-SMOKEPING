@@ -20,6 +20,8 @@ git clone https://github.com/schumacherneto/AONOG2022-SMOKEPING.git
   ```
 
 ## Structure
+Note: Edit Targets file in order to modify desired destinations
+  ```
 .
 ├── README.md
 ├── config
@@ -28,8 +30,8 @@ git clone https://github.com/schumacherneto/AONOG2022-SMOKEPING.git
 │   └── data
 ├── data
 └── docker-compose.yml
+  ```
 
-Note: Edit Targets file in order to modify desired destinations
 
 
 ### Docker-compose "stop" in order to preserve the container or "down" to remove container 

@@ -1,0 +1,195 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website for AONOG 2022 presentation. \
+         Here you will learn few things about the latency performance of the connected network.
+
++ InternetSites
+
+menu = Internet Sites
+title = Internet Sites
+
+++ Facebook
+menu = Facebook
+title = Facebook
+host = facebook.com
+
+++ Youtube
+menu = YouTube
+title = YouTube
+host = youtube.com
+
+++ GoogleSearch
+menu = Google
+title = google.com
+host = google.com
+
+++ GoogleSearchIpv6
+menu = Google
+probe = FPing6
+title = ipv6.google.com
+host = ipv6.google.com
+
+++ linuxserverio
+menu = linuxserver.io
+title = linuxserver.io
+host = linuxserver.io
+
++ Africa
+
+menu = Africa
+title = Africa Connectivity
+
+++ Angola
+
+menu = Angola
+title = The Mixaland
+
++++ ParatusAO
+
+menu = Paratus AO
+title = Paratus AO
+host = www.paratus.ao
+
++ DNS
+menu = DNS
+title = DNS
+
+++ GoogleDNS1
+menu = Google DNS 1
+title = Google DNS 8.8.8.8
+host = 8.8.8.8
+
+++ GoogleDNS2
+menu = Google DNS 2
+title = Google DNS 8.8.4.4
+host = 8.8.4.4
+
+++ CloudflareDNS1
+menu = Cloudflare DNS 1
+title = Cloudflare DNS 1.1.1.1
+host = 1.1.1.1
+
+++ CloudflareDNS2
+menu = Cloudflare DNS 2
+title = Cloudflare DNS 1.0.0.1
+host = 1.0.0.1
+
+++ OpenDNS1
+menu = OpenDNS1
+title = OpenDNS1
+host = 208.67.222.222
+
+++ OpenDNS2
+menu = OpenDNS2
+title = OpenDNS2
+host = 208.67.220.220
+
+++ Quad9
+menu = Quad9
+title = Quad9 DNS 9.9.9.9
+host = 9.9.9.9
+
+++ AS33763-1
+menu = PARATUS AO AS33763 DNS 1
+title = PARATUS AO AS33763 DNS 196.216.48.10
+host = 196.216.48.10
+
+++ AS33763-2
+menu = PARATUS AO AS33763 DNS 2
+title = PARATUS AO AS33763 DNS 196.216.52.10
+host = 196.216.52.10
+
+++ AS36907-1
+menu = TV CABO AO AS36907 DNS 1
+title = TV CABO AO AS36907 DNS 154.127.218.57
+host = 154.127.218.57
+
+++ AS36907-2
+menu = TV CABO AO AS36907 DNS 2
+title = TV CABO AO AS36907 DNS 154.127.218.47
+host = 154.127.218.47
+
+++ AS328111-1
+menu = IPWORLD AS328111 DNS 
+title = IPWORLD AS328111 DNS 169.239.134.178
+host = 169.239.134.178
+
+++ AS37119-1
+menu = UNITEL AS37119 DNS 
+title = UNITEL AS37119 DNS 105.174.40.238
+host = 105.174.40.238
+
+
++ DNSProbes
+menu = DNS Probes
+title = DNS Probes
+probe = DNS
+
+++ GoogleDNS1
+menu = Google DNS 1
+title = Google DNS 8.8.8.8
+host = 8.8.8.8
+
+++ GoogleDNS2
+menu = Google DNS 2
+title = Google DNS 8.8.4.4
+host = 8.8.4.4
+
+++ OpenDNS1
+menu = OpenDNS1
+title = OpenDNS1
+host = 208.67.222.222
+
+++ OpenDNS2
+menu = OpenDNS2
+title = OpenDNS2
+host = 208.67.220.220
+
+++ CloudflareDNS1
+menu = Cloudflare DNS 1
+title = Cloudflare DNS 1.1.1.1
+host = 1.1.1.1
+
+++ CloudflareDNS2
+menu = Cloudflare DNS 2
+title = Cloudflare DNS 1.0.0.1
+host = 1.0.0.1
+
+++ Quad9
+menu = Quad9
+title = Quad9 DNS 9.9.9.9
+host = 9.9.9.9
+
+++ AS33763-1-Probe
+menu = PARATUS AO AS33763 DNS 1 - Probe
+title = PARATUS AO DNS 196.216.48.10 Probe google.com
+host = 196.216.48.10
+
+++ AS33763-2-Probe
+menu = PARATUS AO AS33763 DNS 2 - Probe
+title = PARATUS AO DNS 196.216.52.10 Probe google.com
+host = 196.216.52.10
+
+++ AS36907-1-Probe
+menu = TV CABO AO AS36907 DNS 1 - Probe
+title = TV CABO AO DNS 154.127.218.57 Probe google.com
+host = 154.127.218.57
+
+++ AS36907-2-Probe
+menu = TV CABO AO AS36907 DNS 2 - Probe
+title = TV CABO AO DNS 154.127.218.47 Probe google.com
+host = 154.127.218.47
+
+++ AS328111-1-Probe
+menu = IPWORLD AS328111 DNS  - Probe
+title = IPWORLD  DNS 169.239.134.178 Probe google.com
+host = 169.239.134.178
+
+++ AS37119-1-Probe
+menu = UNITEL AS37119 DNS  - Probe
+title = UNITEL DNS 105.174.40.238 Probe google.com
+host = 105.174.40.238

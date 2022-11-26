@@ -84,6 +84,11 @@ host = www.ipworld.co.ao
 menu = DNS
 title = DNS
 
+++ DNS-L
+menu = DNS-LATENCY
+title = NS-LATENCY
+host = /DNS/GoogleDNS1 /DNS/GoogleDNS2 /DNS/CloudflareDNS1 /DNS/CloudflareDNS2 /DNS/OpenDNS1  /DNS/OpenDNS2  /DNS/Quad9 /DNS/AS33763-1 /DNS/AS33763-2 /DNS/AS36907-1 /DNS/AS36907-2 /DNS/AS328111-1 /DNS/AS37119-1
+
 ++ GoogleDNS1
 menu = Google DNS 1
 title = Google DNS 8.8.8.8
@@ -155,6 +160,11 @@ menu = DNS Probes
 title = DNS Probes
 probe = DNS
 
+++ DNS-P
+menu = DNS-PROBE-GOOGLE-COM
+title = NS-PROBE-GOOGLE-COM
+host = /DNSProbes/GoogleDNS1 /DNSProbes/GoogleDNS2 /DNSProbes/CloudflareDNS1 /DNSProbes/CloudflareDNS2 /DNSProbes/OpenDNS1  /DNSProbes/OpenDNS2  /DNSProbes/Quad9 /DNSProbes/AS33763-1-Probe /DNSProbes/AS33763-2-Probe /DNSProbes/AS36907-1-Probe /DNSProbes/AS36907-2-Probe /DNSProbes/AS328111-1-Probe /DNSProbes/AS37119-1-Probe
+
 ++ GoogleDNS1
 menu = Google DNS 1
 title = Google DNS 8.8.8.8
@@ -211,11 +221,11 @@ title = TV CABO AO DNS 154.127.218.47 Probe google.com
 host = 154.127.218.47
 
 ++ AS328111-1-Probe
-menu = IPWORLD AS328111 DNS  - Probe
-title = IPWORLD  DNS 169.239.134.178 Probe google.com
+menu = IPWORLD AO AS328111 DNS  - Probe
+title = IPWORLD AO DNS 169.239.134.178 Probe google.com
 host = 169.239.134.178
 
 ++ AS37119-1-Probe
-menu = UNITEL AS37119 DNS  - Probe
-title = UNITEL DNS 105.174.40.238 Probe google.com
+menu = UNITEL AO AS37119 DNS  - Probe
+title = UNITEL AO DNS 105.174.40.238 Probe google.com
 host = 105.174.40.238

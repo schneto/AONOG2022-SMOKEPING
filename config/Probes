@@ -1,0 +1,38 @@
+*** Probes ***
+
++ FPing
+
+binary = /usr/sbin/fping
+
++ FPing6
+
+binary = /usr/sbin/fping
+protocol = 6
+
++ DNS
+binary = /usr/bin/dig
+lookup = google.com
+pings = 5
+step = 300
+
+
+
+ +TraceroutePing
+
+ binary = /usr/bin/traceroute # mandatory
+ binaryv6 = /usr/bin/traceroute6
+ forks = 5
+ offset = 50%
+ step = 300
+ timeout = 15
+
+ # The following variables can be overridden in each target section
+ desthost = www.google.com # mandatory
+ host = 127.0.0.1 # mandatory
+ maxttl = 15
+ minttl = 11
+ pings = 5
+ wait = 3
+
+ # [...]
+

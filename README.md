@@ -35,6 +35,7 @@ services:
       - TZ=Africa/Luanda
     volumes:
       - ./config/Targets:/config/Targets
+      - ./config/Probes:/config/Probes
       - ./config/data:/config/data
       
     ports:

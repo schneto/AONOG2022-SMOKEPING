@@ -15,7 +15,7 @@
 
 ### Clone repository to your localhost
 
-git clone https://github.com/schumacherneto/AONOG2022-SMOKEPING.git
+git clone https://github.com/schneto/AONOG2022-SMOKEPING.git
 
 
 ### Prepare the container

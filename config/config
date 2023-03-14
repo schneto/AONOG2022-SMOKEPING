@@ -5,3 +5,6 @@
 @include /config/Probes
 @include /config/Slaves
 @include /config/Targets
+
+syslogfacility = local0
+syslogpriority = debug

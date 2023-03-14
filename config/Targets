@@ -231,6 +231,14 @@ title = UNITEL AO DNS 105.174.40.238 Probe google.com
 host = 105.174.40.238
 
 
++ automated-response
+menu = Automated Response based on performance TEST
+title = Automated Response based on performance TEST
 
 
-
+++ mox1
+menu = gw1.mox3.ao.afrisp.net
+title = gw1.mox3.ao.afrisp.net
+probe = FPing
+host = 196.216.48.147
+alerts = failover,recovery

@@ -10,8 +10,13 @@ services:
       - TZ=Africa/Luanda
     volumes:
       - ./config/Targets:/config/Targets
+      - ./config/General:/config/General
       - ./config/Probes:/config/Probes
       - ./config/data:/config/data
+      - ./config/Alerts:/config/Alerts
+      - ./config/scripts:/config/scripts
+      - ./config/data/smokeping:/var/log/smokeping
+      - ./config/sysctl.conf:/etc/sysctl.conf
       
     ports:
       - 80:80

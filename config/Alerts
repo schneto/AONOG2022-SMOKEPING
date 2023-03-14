@@ -1,0 +1,28 @@
+*** Alerts ***
+#to = alertee@address.somewhere
+#from = smokealert@company.xy
+
+to = |/bin/sh /config/scripts/failover.sh
+from = smokeping@example.com
+
+
++someloss
+type = loss
+# in percent
+pattern = >0%,*12*,>0%,*12*,>0%
+comment = loss 3 times  in a row
+
++ failover
+type = loss
+#pattern = >20%,*12*,*0*
+pattern = >0%
+#command = /config/scripts/failover.sh
+#alert = /bin/echo "Someloss alert for %host" | /bin/sh /config/scripts/failover.sh
+comment = Massive loss for 5 mins
+
++ recovery
+type = rtt
+pattern = >=500
+#command = /config/scripts/rollback.sh
+#alert = /bin/echo "Traffic recovery alert for %host" | /bin/sh /config/scripts/rollback.sh
+comment = Recovery to main circuit

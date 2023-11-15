@@ -21,3 +21,5 @@ services:
     ports:
       - 80:80
     restart: unless-stopped
+
+#http://localhost/smokeping/smokeping.cgi?

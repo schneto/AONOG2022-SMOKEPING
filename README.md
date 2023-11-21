@@ -49,6 +49,10 @@ services:
  docker-compose up -d
   ```
 
+### Navigate at the browser
+ ```
+http://localhost/smokeping/?
+  ```
 
 ### Execute docker container
 

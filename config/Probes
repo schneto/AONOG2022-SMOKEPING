@@ -15,7 +15,14 @@ lookup = google.com
 pings = 5
 step = 300
 
-
++ TCPPing
+binary = /usr/bin/tcpping # mandatory
+forks = 5
+offset = 50%
+step = 300
+timeout = 15
+pings = 5
+port = 8880
 
  +TraceroutePing
 
@@ -35,4 +42,5 @@ step = 300
  wait = 3
 
  # [...]
+
 

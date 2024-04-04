@@ -38,45 +38,38 @@ menu = linuxserver.io
 title = linuxserver.io
 host = linuxserver.io
 
-+ Africa
++ IPTV
 
-menu = Africa
-title = Africa Connectivity
+menu = IPTV
+title = IPTV Connectivity
 
-++ Angola
+++ IPTV
 
-menu = Angola
-title = The Mixaland
+menu = IPTV
+title = IPTV Providers
 
-+++ ParatusAO
-menu = www.paratus.ao
-title = www.paratus.ao
-host = www.paratus.ao
+probe = TCPPing # if this should be the default probe
 
-+++ TVCABOAO
-menu = www.tvcabo.ao
-title = www.tvcabo.ao
-host = www.tvcabo.ao
++++ hptv-pro
+menu = hptv.pro
+title = hptv.pro
+host = hptv.pro
 
-+++ ZAPAO
-menu = www.zap.co.ao
-title = www.zap.co.ao
-host = www.zap.co.ao
++++ protv-link
+menu = protv.link
+title = protv.link
+host = protv.link
 
-+++ UNITELAO
-menu = www.unitel.ao
-title = www.unitel.ao
-host = www.unitel.ao
++++ 0x40-9y2n-user-content-com
+menu = 0x40.9y2n.user-content.com
+title = 0x40.9y2n.user-content.com
+host = 0x40.9y2n.user-content.com
 
-+++ AFRICELLAO
-menu = www.africell.ao
-title = www.africell.ao
-host = www.africell.ao
++++ 0x3b-9y2n-user-content-com
+menu = 0x3b.9y2n.user-content.com
+title = 0x3b.9y2n.user-content.com | 8880
+host = 0x3b.9y2n.user-content.com
 
-+++ IPWORLDAO
-menu = www.ipworld.co.ao
-title = www.ipworld.co.ao
-host = www.ipworld.co.ao
 
 
 
